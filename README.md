@@ -18,8 +18,9 @@ Input the values
 ### Step 6: 
 End the program
 ## PROGRAM:
+```
 #program is developed: R PRIYANGA
-# REF.NO: 23013772
+#REF.NO: 23013772
 import sys
 count= 0
 with open(sys.argv[1],'r') as file:
@@ -28,6 +29,7 @@ with open(sys.argv[1],'r') as file:
         count += len(word)
 print("program is developed: Pavithra R")
 print("word count in file = ",count)
+```
 ### OUTPUT:
 ![output](photo.png)
 
